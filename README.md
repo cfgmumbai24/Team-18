@@ -35,3 +35,44 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
 ```
+## Express:
+```
+sh
+Copy code
+cd express_backend
+npm install
+npm start
+```
+## Set Up the Frontend
+## Ensure you have Node.js installed.
+```
+sh
+Copy code
+cd frontend
+npm install
+npm start
+```
+
+## Configure PostgreSQL
+ Create a new PostgreSQL database and update the DATABASES setting in the Django settings.py file.
+
+## Running Mistral (if applicable)
+ Mistral is a workflow service. Ensure it is set up and running as per your environment requirements.
+
+## Contribution Guidelines
+
+ - Fork the repository
+ - Create a new branch (git checkout -b feature-branch)
+ - Commit your changes (git commit -m 'Add some feature')
+ - Push to the branch (git push origin feature-branch)
+ - Open a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgements
+
+The Django and Express communities for their excellent frameworks.
+PostgreSQL for providing a robust and reliable database system.
+The Ekalavya Foundation for the initiative and vision.
