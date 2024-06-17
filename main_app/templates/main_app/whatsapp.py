@@ -5,7 +5,7 @@ import time
 # Database connection parameters
 db_host = 'localhost'
 db_user = 'root'
-db_password = 'VaibhavS@1510'
+db_password = 'Your_own_password'
 db_name = 'ekalavya'
 
 # Function to send a WhatsApp message
